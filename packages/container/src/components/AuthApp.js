@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
 
 import { mount } from 'auth/AuthApp';
-import { useHistory } from 'react-router-dom';
 
 export default ({ onSignIn }) => {
     const ref = useRef(null);
